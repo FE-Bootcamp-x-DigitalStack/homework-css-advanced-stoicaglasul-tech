@@ -8,9 +8,22 @@
 </head>
 <body>
 
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">GIA'S NAV BAR</a>
+        <ul class="nav-links">
+            <li><a href="#main-header">Home</a></li>
+            <li><a href="#intro-post">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
 <header id="main-header">
-    <h1>The Dev Log</h1>
-    <p>Thoughts on <span title="I love Espresso!">coffee</span>, books, and coding.</p>
+    <div class="hero-content">
+        <h1>The Dev Log</h1>
+        <p>Thoughts on <span title="I love Espresso!">coffee</span>, books, and coding.</p>
+    </div>
 </header>
 
 <div class="container">
@@ -47,6 +60,22 @@
             <p>This is my first assignment on GitHub! I'm balancing this with an 8-hour workday, 
             so it’s a marathon, not a sprint.</p>
         </article>
+
+        <section id="contact">
+            <h3>Get in Touch</h3>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
     </main>
 
     <aside>
